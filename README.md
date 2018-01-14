@@ -1,2 +1,2 @@
 # DemoParts
-Blender, GIMP, and Unity projects to demo's of KSP parts
+Blender, GIMP, and Unity projects to demo KSP part creation
