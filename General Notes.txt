@@ -1,0 +1,52 @@
+Unity version 
+	KSP v1.3.1 -> Unity 5.4.0p4. Look in KSP Directory\KSP_x64_Data\output_log.txt and Unity version is listed 
+	on the first line. Important to use the correct version if your debugging plugins. You can get away
+	with using a different version of Unity for making parts.
+
+Blender export
+	I use "Export | Collada" with the setting shown in "Collada_Export.jpg". The Operator Presets can be used to 
+	store the settings so you don't have to check them off each time. 
+	Another format I see mentioned (actualy more often than Collada) is the FBX format.
+	When using the Collada export in blender the root part of the model is always rotated 90 degrees on the X 
+	axis when moved into Unity. First thing I do is zero the X axis rotation and remove the Animation (Provided 
+	I don't need it). It's also possible to drop the bender file into Unity and you can directly edit the Blender
+	file in the Unity directory so when you save in Blender, Unity is updated - not sure if there are any hidden Gotcha's
+	with this method.
+
+GIMP
+	For these parts I left the textures in .png format but for a "to be used" part textures are generally 
+	released in dds format. See https://forum.kerbalspaceprogram.com/index.php?/topic/107940-psa-to-part-mod-authors-please-distribute-textures-as-dds-if-possible/
+	The textures are 512 x 512 which is probably too small for some of the parts but does keep the package file size
+	down. 
+
+Tools used to make these parts:
+Blender 2.79
+Unity 5.4.0p4 personal
+GIMP 2.8.16
+
+Part status: (All 131.0 projects are working in KSP 1.4.0)
+Part			Version	Comments
+AirBrake		131.0
+ControlSurface		131.0	
+Decoupler		131.0
+DecouplerRadial		140.0	
+DockingPort		140.0	Added information on transforms and some problems/solutions
+Door/Airlock		131.0
+Engine			131.0	
+Fairing			-
+FuelLine		-
+FuelTank		131.0
+Grappler		140.0	
+Intake			131.0	
+Ladder			131.0
+LandingLeg		-	WIP
+LaunchClamp		131.0
+Light			-	WIP - Working but emissives messed up
+Parachute		140.0	Corrected bottom stack node direction/position
+Radiator		-
+RCS			131.0
+RetractingLandingGear	-
+SolarPanel		131.0
+Strut			-
+Wheel			-
+Wing			131.0	
